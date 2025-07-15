@@ -4,10 +4,10 @@
 
 La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes, para esto se requiere: 
 
-✅ Importar y manipular datos desde una API de manera eficiente.
-✅ Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos.
-✅ Crear visualizaciones estratégicas para identificar patrones y tendencias.
-✅ Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.
+1. Importar y manipular datos desde una API de manera eficiente.
+2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos.
+3. Crear visualizaciones estratégicas para identificar patrones y tendencias.
+4. Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.
 
 
 ## 🔧 Requisitos
@@ -26,3 +26,4 @@ La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprend
 ## 👤 Autor
 
 Jonathan Puerta Gallego
+
