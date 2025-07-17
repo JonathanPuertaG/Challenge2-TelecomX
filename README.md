@@ -2,16 +2,24 @@
 
 ## 💡Acerca del desafío 💡
 
-La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprender los factores que llevan a la pérdida de clientes, para esto se requiere: 
+Este proyecto lo desarrollé para analizar el comportamiento de abandono de clientes (churn) en una empresa de telecomunicaciones. A partir de un dataset realista, busqué identificar patrones y variables clave que puedan ayudar a la empresa a anticipar la pérdida de usuarios y tomar decisiones estratégicas.
 
-1. Importar y manipular datos desde una API de manera eficiente.
-2. Aplicar los conceptos de ETL (Extracción, Transformación y Carga) en la preparación de los datos.
-3. Crear visualizaciones estratégicas para identificar patrones y tendencias.
-4. Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.
+## 📥 Extracción de Datos
+
+Primero, realicé la carga de datos directamente desde un archivo JSON alojado en GitHub. Para ello utilicé requests junto con pandas, "https://raw.githubusercontent.com/sthemonica/alura-voz/refs/heads/main/Dados/Telco-Customer-Churn.json".
+
+También realicé una validación inicial del dataset, identificando:
+- Total de registros: {{df.shape[0]}}
+- Total de columnas: {{df.shape[1]}}
+- Tipos de datos y columnas cargadas correctamente.
+
 
 ## 🧹 Transformación de Datos
 
-Después de importar el dataset en formato JSON, identifiqué que varias columnas estaban estructuradas como diccionarios anidados. Para poder analizarlas de forma efectiva, aplané estos campos y los convertí en columnas individuales utilizando herramientas de pandas. Esto permitió estructurar correctamente la información para el análisis exploratorio y las visualizaciones.
+Después de importar el dataset en formato JSON, identifiqué que varias columnas estaban estructuradas como diccionarios anidados. Para poder analizarlas de forma efectiva, aplané estos campos y los convertí en columnas individuales utilizando herramientas de pandas. 
+
+Esto permitió estructurar correctamente la información para el análisis exploratorio y las visualizaciones.
+
 
 
 ## 🔧 Requisitos
