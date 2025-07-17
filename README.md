@@ -9,6 +9,10 @@ La empresa Telecom X enfrenta una alta tasa de cancelaciones y necesita comprend
 3. Crear visualizaciones estratégicas para identificar patrones y tendencias.
 4. Realizar un Análisis Exploratorio de Datos (EDA) y generar un informe con insights relevantes.
 
+## 🧹 Transformación de Datos
+
+Después de importar el dataset en formato JSON, identifiqué que varias columnas estaban estructuradas como diccionarios anidados. Para poder analizarlas de forma efectiva, aplané estos campos y los convertí en columnas individuales utilizando herramientas de pandas. Esto permitió estructurar correctamente la información para el análisis exploratorio y las visualizaciones.
+
 
 ## 🔧 Requisitos
 
