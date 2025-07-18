@@ -20,6 +20,9 @@ Posteriormente realicé una limpieza completa sobre el dataframe, que incluyó:
 
 4. Validación de consistencia en la columna Churn, asegurando que no existan valores vacíos o desconocidos.
 
+5. Se creó una nueva columna llamada **`Cuentas_Diarias`**, calculada a partir del valor mensual de facturación (`Charges.Monthly`). Esta columna representa una estimación del valor diario facturado por cada cliente y se obtiene dividiendo el valor mensual entre 30 días
+ 
+
 Estas transformaciones dejaron el dataset listo para el análisis exploratorio.
 
 ## 📈 Análisis Exploratorio (EDA)
