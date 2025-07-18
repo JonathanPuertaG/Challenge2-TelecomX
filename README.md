@@ -27,15 +27,34 @@ Estas transformaciones dejaron el dataset listo para el análisis exploratorio.
 
 ## 📈 Análisis Exploratorio (EDA)
 
-Durante el EDA, identifiqué relaciones importantes entre la cancelación de clientes y ciertas variables, tales como:
+### 📊 Análisis Descriptivo
 
-- Clientes con contrato "Month-to-month" tienden a cancelar más.
+Se realizó un análisis descriptivo de las principales variables del dataset para comprender mejor el comportamiento de los clientes.
 
-- El método de pago "Electronic check" está asociado con un mayor churn.
+#### 🔢 Variables Numéricas
 
-- La ausencia de servicios como OnlineSecurity o TechSupport también muestra correlación con cancelaciones.
+Se calcularon las siguientes métricas para columnas como `tenure`, `Charges.Monthly`, `Charges.Total` y `Cuentas_Diarias`:
 
-Incluí visualizaciones con matplotlib y seaborn para ilustrar estas tendencias.
+- **Media**
+- **Mediana**
+- **Desviación estándar**
+- **Valor mínimo y máximo**
+- **Percentiles**
+
+Este análisis permitió identificar:
+- Clientes con altos montos facturados diariamente.
+- Casos con poca antigüedad pero alta facturación.
+- Alta dispersión en las tarifas mensuales y totales.
+
+#### 🧮 Variables Categóricas
+
+Se analizaron frecuencias de variables como:
+
+- `gender`
+- `InternetService`
+- `Contract`
+- `Churn`
+
 
 
 ## 🔧 Requisitos
